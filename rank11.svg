@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 150.5 29" height="29" width="150.5">
+    <style>
+        #sc1{stop-color: #ffff00;}
+        #sc2{stop-color: #e0e000;}
+        #sc3{stop-color: #000;}
+    </style>
+    <defs>
+        <linearGradient id="grad">
+            <stop offset="0" id="sc1"/>
+            <stop offset="5%" id="sc2"/>
+            <stop offset="100%" id="sc3"/>
+        </linearGradient>
+        <linearGradient id="a" x1="304" y1="219" x2="377" y2="219" gradientUnits="userSpaceOnUse" xlink:href="#grad"/>
+        <linearGradient id="b" x1="400" y1="289" x2="377" y2="219" gradientUnits="userSpaceOnUse" xlink:href="#grad"/>
+        <linearGradient id="c" x1="400" y1="289" x2="423" y2="359" gradientUnits="userSpaceOnUse" xlink:href="#grad"/>
+        <linearGradient id="d" x1="363.5" y1="402" x2="423" y2="359" gradientUnits="userSpaceOnUse" xlink:href="#grad"/>
+        <linearGradient id="e" x1="363.5" y1="402" x2="304" y2="445" gradientUnits="userSpaceOnUse" xlink:href="#grad"/>
+        <linearGradient id="f" x1="244.5" y1="402" x2="304" y2="445" gradientUnits="userSpaceOnUse" xlink:href="#grad"/>
+        <linearGradient id="g" x1="244.5" y1="402" x2="185" y2="359" gradientUnits="userSpaceOnUse" xlink:href="#grad"/>
+        <linearGradient id="h" x1="208" y1="289" x2="185" y2="359" gradientUnits="userSpaceOnUse" xlink:href="#grad"/>
+        <linearGradient id="i" x1="208" y1="289" x2="231" y2="219" gradientUnits="userSpaceOnUse" xlink:href="#grad"/>
+        <linearGradient id="j" x1="304" y1="219" x2="231" y2="219" gradientUnits="userSpaceOnUse" xlink:href="#grad"/>
+    </defs>
+    <symbol id="star" viewBox="0 0 608 597">
+        <path d="M304 0 377 219 304 320Z" fill="url(#a)"/>
+        <path d="M377 219 608 221 304 320Z" fill="url(#b)"/>
+        <path d="M608 221 423 359 304 320Z" fill="url(#c)"/>
+        <path d="M423 359 492 579 304 320Z" fill="url(#d)"/>
+        <path d="M492 579 304 445 304 320Z" fill="url(#e)"/>
+        <path d="M304 445 116 579 304 320Z" fill="url(#f)"/>
+        <path d="M116 579 185 359 304 320Z" fill="url(#g)"/>
+        <path d="M185 359 0 221 304 320Z" fill="url(#h)"/>
+        <path d="M0 221 231 219 304 320Z" fill="url(#i)"/>
+        <path d="M231 219 304 0 304 320Z" fill="url(#j)"/>
+    </symbol>
+    <symbol id="0star" viewBox="0 0 608 597">
+        <path d="M304 0 377 219 368 232 304 40Z" fill="url(#a)"/>
+        <path d="M377 219 608 221 570 233 368 232Z" fill="url(#b)"/>
+        <path d="M608 221 423 359 408 354 570 233Z" fill="url(#c)"/>
+        <path d="M423 359 492 579 469 547 408 354Z" fill="url(#d)"/>
+        <path d="M492 579 304 445 304 429 469 547Z" fill="url(#e)"/>
+        <path d="M304 445 116 579 139 547 304 429Z" fill="url(#f)"/>
+        <path d="M116 579 185 359 200 354 139 547Z" fill="url(#g)"/>
+        <path d="M185 359 0 221 38 233 200 354Z" fill="url(#h)"/>
+        <path d="M0 221 231 219 240 232 38 233Z" fill="url(#i)"/>
+        <path d="M231 219 304 0 304 40 240 232Z" fill="url(#j)"/>
+    </symbol>
+    <use href="#star" height="30px" width="30.5px" x="0px"></use>
+    <use href="#star" height="30px" width="30.5px" x="30px"></use>
+    <use href="#star" height="30px" width="30.5px" x="60px"></use>
+    <use href="#star" height="30px" width="30.5px" x="90px"></use>
+    <use href="#star" height="30px" width="30.5px" x="120px"></use>
+</svg>
